@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+.validation {
+    display: inline;
+    font-size: 0.8rem;
+    color: #ff0000;
+    margin: 0.3rem;
+}
+
+.contact-form {
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.contact-form__heading {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-item,
+.form-body {
+    padding: 20px;
+}
+
+.form-item {
+    width: 30%;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.form-body {
+    width: 70%;
+}
+
+.form-item-required {
+    color: #f00;
+    margin-left: 5px;
+}
+
+.last-name-text,
+.first-name-text {
+    width: 230px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-body-last-name,
+.form-body-first-name,
+.form-body-email,
+.form-body-post,
+.form-body-address,
+.form-body-build {
+    color: #ccc;
+    margin: 15px;
+    font-size: 13px;
+}
+
+.form-body-post {
+    margin-left: 50px;
+}
+
+.first-name,
+.last-name {
+    float: left;
+}
+
+.first-name {
+    margin-left: 10px;
+}
+
+.form-text {
+    width: 500px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.form-post {
+    display: inline-block;
+    width: 470px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-body-mark {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.opinion-text {
+    width: 500px;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sex-text {
+    display: none;
+}
+
+.radio-box {
+    display: inline-block;
+    padding: 0 0 0 50px;
+    position: relative;
+}
+
+.radio-text::before {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #CCC;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 3px;
+}
+
+.radio-text::after {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+.sex-text:checked+.radio-text::after {
+    content: '';
+    position: absolute;
+    left: calc(20px - 5px);
+    display: block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+}
+
+.form__button-submit {
+    display: block;
+    margin: 10px auto 0;
+    background-color: #000;
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}

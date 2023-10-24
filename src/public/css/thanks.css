@@ -1,0 +1,29 @@
+.thanks__content {
+    margin: 250px auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.thanks__content-message {
+    font-size: 15px;
+    display: inline-block;
+}
+
+.thanks__content-button {
+    width: 200px;
+    margin: 50px auto;
+}
+
+.thanks__content-button-top {
+    background-color: #000;
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}

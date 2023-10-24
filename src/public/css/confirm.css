@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.confirm-form {
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.confirm-form__heading {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.confirm-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.confirm-item,
+.confirm-body {
+    padding: 20px;
+}
+
+.confirm-item {
+    width: 30%;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.confirm-body {
+    width: 70%;
+}
+
+
+.confirm-fullname-text {
+    width: 500px;
+    height: 40px;
+    border: none;
+}
+
+.confirm-form-text {
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+}
+
+.confirm-sex-text {
+    width: 500px;
+    height: 40px;
+    border: none;
+}
+
+.confirm-form-post {
+    display: inline-block;
+    width: 470px;
+    height: 40px;
+    border: none;
+}
+
+.confirm-opinion-text {
+    width: 500px;
+    height: 120px;
+    border: none;
+}
+
+
+
+.confirm__button-submit {
+    display: block;
+    margin: 10px auto 0;
+    background-color: #000;
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.return__link {
+    background-color: #fff;
+}
+
+.return_link-back {
+    display: block;
+    margin: 10px auto 0;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
